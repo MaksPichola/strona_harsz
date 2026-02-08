@@ -103,7 +103,7 @@ nav {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('TŁO_HOME.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('tlo_home.jpg');
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -119,7 +119,7 @@ nav {
 }
 
 .hero-location {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('Lokalizacja.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('lokalizacja.jpg');
     background-size: cover;
     background-position: center 75%;
     height: 40vh;
