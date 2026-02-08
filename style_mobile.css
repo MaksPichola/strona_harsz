@@ -1,0 +1,90 @@
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: var(--white);
+        padding: 1rem;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+    }
+
+    section {
+        padding: var(--spacing-md) 0;
+    }
+
+    .plots-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .plot-card.is-sold::after {
+        width: 120%;
+        left: -10%;
+    }
+
+    .map-exhibit {
+        margin-bottom: 2rem;
+    }
+
+    .info-card {
+        margin-bottom: 2rem;
+    }
+
+    .hero {
+        height: auto;
+        min-height: 50vh;
+        padding: 4rem 1rem;
+    }
+
+    .hero-location,
+    .hero-contact {
+        height: 30vh;
+        min-height: 200px;
+    }
+
+    .plot-image {
+        height: 180px;
+    }
+}
+
+@media (max-width: 480px) {
+    .plot-details {
+        padding: 1rem;
+    }
+
+    .plot-meta {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    .plot-image {
+        height: 160px;
+    }
+}

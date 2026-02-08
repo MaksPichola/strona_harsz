@@ -1,0 +1,11 @@
+# robots.txt dla dzialkiharsz.pl
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.dzialkiharsz.pl/sitemap.xml
+
+# Blokuj niepotrzebne pliki
+# Crawlers should access CSS/JS for mobile usability rendering
+Disallow:
